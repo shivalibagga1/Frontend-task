@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="lss/index.css">
+ <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+<main>
+  <div class="row">
+      <div class="container">
+              <div class="content">
+                  <!-- <h1>Styles</h1> -->
+                  <div class= "gallery row">
+                      <div class="group col-5">
+                        <h1>Styles</h1>
+                        <img class ="photo1 image-silver" src="assets/silver.jpg">
+                        <img class ="photo1 image-red" style="display: none;" src="assets/red.jpg">
+                        <img class ="photo1 image-grey" style="display: none;" src="assets/grey.jpg">
+                        <img class ="photo1 image-blue  " style="display: none;" src="assets/blue.jpg">
+
+                            <div class="color-container">
+                              <div class="silver"><span class="color1"></span></div>
+                              <div class="red"><span class="color2"></span></div>
+                              <div class="grey"><span class="color3"></span></div>
+                              <div class="blue"><span class="color4"></span></div>
+                            </div>
+                          <div class="name">
+                            <div class="name-silver">Silver Car</div>
+                            <div class="name-red" style="display: none;">Red Car</div>
+                            <div class="name-grey" style="display: none;">Grey Car</div>
+                            <div class="name-blue" style="display: none;">Blue Car</div>
+                          </div>
+                      </div>   <!-- end group-->
+
+                      <!-- RATING -->
+                      <div class="rating-container col-5">
+                          <h1>Ratings</h1>
+                        <div><strong>Critics</strong></div>
+                        <div class="progress-bar">
+                          <span class="progress-value critics"></span>
+                        </div>
+                        <span><strong>87</strong></span>
+                        <div><strong>Performance</strong></div>
+                        <div class="progress-bar">
+                          <span class="progress-value performance"></span>
+                        </div>
+                        <span><strong>64</strong></span>
+                          <div><strong>Interior</strong></div>
+                          <div class="progress-bar">
+                            <span class="progress-value interior"></span>
+                          </div>
+                          <span><strong>90</strong></span>
+                          <div><strong>Safety</strong></div>
+                          <div class="progress-bar">
+                              <span class="progress-value safety"></span>
+                          </div>
+                          <span><strong>44</strong></span>
+                          <div><strong>Reliability</strong></div>
+                            <div class="progress-bar">
+                                <span class="progress-value reliability"></span>
+                            </div>
+                            <span><strong>52</strong></span>
+                      </div>
+
+                      <!--OVERALL RATING  -->
+                        <div id="logo" class="col-2">	<span class="overall-rating"></span>
+	                         <span class="needle"></span>
+                           <div id="rating-text">Overall Rating</div>
+                        </div>
+                  </div><!-- end gallery-->
+                </div><!-- end content-->
+        </div>
+</main>
+      <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>

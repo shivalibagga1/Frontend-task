@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+html body {
+  min-height: 100%;
+  height: 100%;
+}
+.container {
+  margin: 0 auto;
+  min-height: 1144px;
+}
+.content {
+  width: 80%;
+  margin: 35px auto 0;
+}
+.content .setting {
+  display: inline-block;
+  border-radius: 50%;
+}
+.content .title {
+  width: 60%;
+  padding-left: 15px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #f6a80c, rgba(218, 246, 12, 0.1));
+}
+.content .gallery {
+  margin-top: 50px;
+}
+.content .gallery .group {
+  float: left;
+}
+.content .gallery .group h1 {
+  width: 60%;
+  padding-left: 15px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #f6a80c, rgba(218, 246, 12, 0.1));
+}
+.content .gallery .group img {
+  width: 100%;
+}
+.content .gallery .group .color-container {
+  text-align: center;
+}
+.content .gallery .group .color-container div {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  padding: 4px;
+}
+.content .gallery .group .color-container span {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.content .gallery .group .color-container .color1 {
+  background: #8d99ae;
+}
+.content .gallery .group .color-container .color2 {
+  background: #ef233c;
+}
+.content .gallery .group .color-container .color3 {
+  background: #45565c;
+}
+.content .gallery .group .color-container .color4 {
+  background: #003459;
+}
+.content .gallery .group .color-container .active {
+  border: 4px solid #000000;
+  padding: 1px;
+}
+.content .gallery .group .name {
+  text-align: center;
+  margin-top: 15px;
+  color: #8d99ae;
+}
+.content .gallery .prog {
+  border-radius: 1.25em;
+  height: 16px;
+  display: inline-block;
+}
+.content .gallery .prog-animation from {
+  width: 0;
+}
+.content .gallery .prog-animation to {
+  width: 87%;
+}
+.content .gallery .prog-animation1 from {
+  width: 0;
+}
+.content .gallery .prog-animation1 to {
+  width: 64%;
+}
+.content .gallery .prog-animation2 from {
+  width: 0;
+}
+.content .gallery .prog-animation2 to {
+  width: 90%;
+}
+.content .gallery .prog-animation3 from {
+  width: 0;
+}
+.content .gallery .prog-animation3 to {
+  width: 44%;
+}
+.content .gallery .prog-animation4 from {
+  width: 0;
+}
+.content .gallery .prog-animation4 to {
+  width: 52%;
+}
+.content .gallery .rating-container {
+  float: left;
+  padding-left: 25px;
+  /* animation */
+}
+.content .gallery .rating-container h1 {
+  width: 60%;
+  padding-left: 15px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #f6a80c, rgba(218, 246, 12, 0.1));
+}
+.content .gallery .rating-container .progress-bar {
+  background-color: #fff0b9;
+  width: 300px;
+  border-radius: 1.25em;
+  height: 16px;
+  display: inline-block;
+}
+.content .gallery .rating-container .progress-value {
+  background-color: #ffe066;
+  transition: 0.3s all linear;
+  border-radius: 1.25em;
+  height: 16px;
+  display: inline-block;
+  animation: progress 3s ease-in-out forwards;
+  -webkit-animation: progress 3s ease-in-out forwards;
+}
+.content .gallery .rating-container .progress-value.performance {
+  animation: progress-1 3s ease-in-out forwards;
+  -webkit-animation: progress-1 3s ease-in-out forwards;
+}
+.content .gallery .rating-container .progress-value.interior {
+  animation: progress-2 3s ease-in-out forwards;
+  -webkit-animation: progress-2 3s ease-in-out forwards;
+}
+.content .gallery .rating-container .progress-value.safety {
+  animation: progress-3 3s ease-in-out forwards;
+  -webkit-animation: progress-3 3s ease-in-out forwards;
+}
+.content .gallery .rating-container .progress-value.reliability {
+  animation: progress-4 3s ease-in-out forwards;
+  -webkit-animation: progress-4 3s ease-in-out forwards;
+}
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 87%;
+  }
+}
+@-webkit-keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 87%;
+  }
+}
+@keyframes progress-1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 64%;
+  }
+}
+@-webkit-keyframes progress-1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 64%;
+  }
+}
+@keyframes progress-2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-webkit-keyframes progress-2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+@keyframes progress-3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 44%;
+  }
+}
+@-webkit-keyframes progress-3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 44%;
+  }
+}
+@keyframes progress-4 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 52%;
+  }
+}
+@-webkit-keyframes progress-4 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 52%;
+  }
+}
+.content .gallery #logo {
+  display: inline-block;
+  position: relative;
+  margin-top: 57px;
+}
+.content .gallery #logo .overall-rating {
+  width: 126px;
+  height: 126px;
+  border-radius: 100%;
+  border: 10px solid #ffe066;
+  border-right: 10px solid white;
+  border-bottom: 10px solid white;
+  -webkit-transform: rotate(45deg);
+  display: inline-block;
+}
+.content .gallery #logo .needle {
+  width: 5px;
+  height: 50px;
+  background: #999999;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  display: inline-block;
+  left: 57px;
+  position: absolute;
+  top: 10px;
+  -webkit-animation: move 5s infinite;
+  transform: rotate(0deg);
+  transform-origin: bottom;
+}
+@-webkit-keyframes move {
+  0% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+.content .gallery #logo #rating-text {
+  color: #8d99ae;
+  font-size: 25px;
+}
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
